@@ -13,7 +13,7 @@ void main() {
 
   print(user.name); // Using it
 
-  user.name = "asdkj"; // ❌ Not needed anymore
+  user = null; // ❌ Not needed anymore
 
   // Dart GC will eventually remove the User("Saad") object from memory
 }
